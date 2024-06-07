@@ -28,3 +28,30 @@ body {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.6rem;
 }
+
+.ek-navbar {
+  transition: opacity 2s ease-out;
+  opacity: 0;
+  background-color: transparent;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+}
+
+.ek-navbar.active {
+  opacity: 1;
+}
+
+.ek-nav-item {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.ek-nav-item:hover {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  text-decoration: underline;
+}
