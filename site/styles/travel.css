@@ -1,0 +1,57 @@
+body {
+  margin-top: 16px;
+  padding-bottom: 16px;
+  background-color: #dee2e6;
+}
+
+.ek-top {
+  border: 1px solid rgb(218,220,224);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.1) 0%, rgba(92, 77, 66, 0.7) 100%), url("../images/travel-background.jpg");
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.title {
+  color: rgba(256, 256, 256, 0.7);
+  font-size: 5rem;
+  font-family: serif;
+}
+
+.title-row {
+  margin-top: 120px;
+  margin-bottom: 12px;
+}
+
+.nav-row {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .nav-row {
+    text-align: left;
+  }
+}
+
+.ek-nav-item {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.ek-nav-item-active {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.ek-nav-item:hover {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  text-decoration: underline;
+}

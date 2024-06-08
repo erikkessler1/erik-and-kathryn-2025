@@ -14,6 +14,7 @@ body {
 .title {
   color: rgba(214, 128, 144, 0.8);
   font-size: 5rem;
+  font-family: serif;
 }
 
 .divider {
