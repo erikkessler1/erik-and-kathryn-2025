@@ -57,6 +57,7 @@ body {
 
 .ek-row {
   display: flex;
+  justify-content: center;
 }
 
 .col-img {
