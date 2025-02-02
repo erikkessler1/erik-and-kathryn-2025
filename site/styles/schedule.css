@@ -75,7 +75,12 @@ body {
   margin-left: 6px;
   margin-right: 6px;
   width: 50%;
-  background-color: #495057;
+  background-color: #ECD5D5;
   border: 1px solid rgb(218,220,224);
   border-radius: 8px;
+  font-family: serif;
+}
+
+.col-info a {
+  color: unset;
 }
